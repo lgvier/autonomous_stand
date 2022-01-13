@@ -32,9 +32,9 @@ Finally, connect the wires to the COMM and NO (normally open) ports on the relay
 # Testing end-to-end
 
 1. Connect the arduino to your dock or laptop via USB
-
+2. Fix the device location in the [send_cmd.sh](send_cmd.sh) script.
 2. Execute [./send_cmd.sh](send_cmd.sh)
 
-# Schedule to execute automatically
+# Schedule it to execute automatically
 
 TODO
