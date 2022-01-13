@@ -17,13 +17,15 @@ Connect the Relay to the Arduino - GND, 5V and Input (pick any of the digital pi
 
 # Soldering
 
-Solder a couple wires to the button that you would usually press to raise the table; Connect it to COMM and NO (Normally open on the relay):
+Solder a couple wires to the button that you would usually press to raise the table; 
 <img src="docs/soldering.jpg" alt="soldering" style="zoom:67%;" />
 
 Test by shorting the 2 wires, then reinstall the panel:
 <img src="docs/wiring.jpg" alt="wiring" style="zoom:67%;" />
 
-# Result
+Finally, connect the wires to the COMM and NO (normally open) ports on the relay. Doesn't matter which wire is on COMM or NO - the relay will just close the circuit when activated.
+
+# All set on the hardware side!
 
 <img src="docs/installed.jpg" alt="installed" style="zoom:67%;" />
 
