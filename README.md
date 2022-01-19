@@ -13,7 +13,7 @@ Connect the Relay to the Arduino - GND, 5V and Input (pick any of the digital pi
 
 # Upload the code to your Arduino
 
-[src/autonomous_stand.ino](src/autonomous_stand.ino)
+[src/arduino/autonomous_stand.ino](src/arduino/autonomous_stand.ino)
 
 # Soldering
 
