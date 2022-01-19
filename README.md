@@ -1,6 +1,6 @@
 # autonomous_stand
 
-Automatically raise a motorized standing desk on a schedule (if the laptop is docked and not sleeping). Because I keep forgetting I have a standing desk.
+Automatically raise a motorized standing desk on a schedule (if the laptop is docked, not sleeping and, optionally, not on Zoom video). Because I keep forgetting I have a standing desk.
 
 My colleague Harsh shared this post with me https://medium.com/@davidkongfilm/how-i-hacked-my-standing-desk-with-a-raspberry-pi-a50ed14c7f6f, which I adapted to use an old Arduino that I already had, and a different relay because I couldn't find the one mentioned for sale.
 
