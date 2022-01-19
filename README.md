@@ -13,7 +13,7 @@ Connect the Relay to the Arduino - GND, 5V and Input (pick any of the digital pi
 
 # Upload the code to your Arduino
 
-[autonomous_stand.ino](./autonomous_stand.ino)
+[src/autonomous_stand.ino](src/autonomous_stand.ino)
 
 # Soldering
 
@@ -32,12 +32,12 @@ Finally, connect the wires to the COMM and NO (normally open) ports on the relay
 # Testing end-to-end
 
 1. Connect the arduino to your dock or laptop via USB
-2. Fix the device location in the [send_cmd.sh](send_cmd.sh) script.
-2. Execute [./send_cmd.sh](send_cmd.sh)
+2. Fix the device location in the [bin/send_cmd.sh](bin/send_cmd.sh) script.
+2. Execute `bin/send_cmd.sh` on the terminal
 
 # Schedule it to execute automatically
 
-1. Execute `crontab -e`
+1. Execute `crontab -e` on the terminal
 
 2. Add a line with the interval of your preference (check out https://crontab.guru): 
    
