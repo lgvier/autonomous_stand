@@ -37,4 +37,10 @@ Finally, connect the wires to the COMM and NO (normally open) ports on the relay
 
 # Schedule it to execute automatically
 
-TODO
+1. Execute `crontab -e`
+
+2. Add a line with the interval of your preference (check out https://crontab.guru): 
+   
+   `0 9-17 * * 1-5 </PATH_TO>/autonomous_stand/bin/run.sh`
+   
+3. MacOS-specific: To prevent raising the desk when Zoom Video is on, allow `crontab` in System Preferences > Accessibility > Permissions. Or set `CHECK_ZOOM_STATUS` to `false` in `run.sh` to disable.
