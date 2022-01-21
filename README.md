@@ -4,7 +4,7 @@ Automatically raise a motorized standing desk on a schedule (if the laptop is do
 
 I have the classic standing desk from https://www.autonomous.ai. Nowadays it looks like they also offer a model that has some scheduling support built in.
 
-My colleague Harsh shared this post with me https://medium.com/@davidkongfilm/how-i-hacked-my-standing-desk-with-a-raspberry-pi-a50ed14c7f6f, which I adapted to use an old Arduino that I already had, and a different relay because I couldn't find the one mentioned for sale. Also by controlling the schedule on the laptop rather than on the Raspberry Pi/Arduino, we can avoid raising the table at innapropriate times.
+My colleague Harsh shared this post with me https://medium.com/@davidkongfilm/how-i-hacked-my-standing-desk-with-a-raspberry-pi-a50ed14c7f6f, which I adapted to use an old Arduino that I already had, and a different relay because I couldn't find the one mentioned for sale. Also by controlling the schedule on the laptop rather than on the Raspberry Pi/Arduino, we can avoid raising the table at inopportune times.
 
 Relay: https://www.amazon.com/gp/product/B00LW15A4W - Costs $6 for a pair, works with Arduino, Raspberry Pi or any other 5V system and also supports high voltage (in case you find some other use for the second relay).
 
