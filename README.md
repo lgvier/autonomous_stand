@@ -45,4 +45,4 @@ Finally, connect the wires to the COMM and NO (normally open) ports on the relay
    
    `0 9-17 * * 1-5 </PATH_TO>/autonomous_stand/bin/run.sh`
    
-3. MacOS-specific: To prevent raising the desk when Zoom Video is on, allow `crontab` in System Preferences > Accessibility > Permissions. Or set `CHECK_ZOOM_STATUS` to `false` in `run.sh` to disable.
+3. MacOS-specific: To prevent raising the desk when Zoom Video is on, allow `crontab` in System Preferences > Accessibility > Permissions. Or set `CHECK_ZOOM_STATUS` to `false` in [bin/run.sh](bin/run.sh) to disable.
