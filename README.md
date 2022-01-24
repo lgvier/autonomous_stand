@@ -8,6 +8,8 @@ My colleague Harsh shared this post with me https://medium.com/@davidkongfilm/ho
 
 Relay: https://www.amazon.com/gp/product/B00LW15A4W - Costs $6 for a pair, works with Arduino, Raspberry Pi or any other 5V system and also supports high voltage (in case you find some other use for the second relay).
 
+Any Arduino will do, but here's a cheap option that I used on another project: https://www.amazon.com/gp/product/B07G99NNXL
+
 # Setup
 
 Connect the Relay to the Arduino - GND to GND, 5V to 5V and Input to any of the digital pins - I'm using pin #3 (make sure the code points to the same pin):
